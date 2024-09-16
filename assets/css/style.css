@@ -748,9 +748,13 @@ main {
   scroll-snap-align: start;
 }
 
+:root {
+  --transition-1: filter 0.3s ease;
+}
+
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: var(--transition-1);
 }
 
