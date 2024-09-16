@@ -256,7 +256,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  width: 3px; /* for vertical scrollbar */
+  width: 2px; /* for vertical scrollbar */
   height: 5px; /* for horizontal scrollbar */
 }
 
